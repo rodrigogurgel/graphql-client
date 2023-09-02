@@ -1,5 +1,5 @@
 package br.com.rodrigogurgel
 
 interface GraphQLHttpClient {
-    fun execute(url: String, request: GraphQLRequest, headers: Map<String, String>?): String
+    fun execute(url: String, requestBody: String, headers: Map<String, String>?): String
 }
